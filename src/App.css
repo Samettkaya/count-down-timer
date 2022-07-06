@@ -33,3 +33,26 @@
 .danger{
   background-color: #EF4444;
 }
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  background-color: #F9FAFB;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 600;
+}
+
+footer a{
+  text-decoration: none;
+  color: #10B981;
+}
+
+footer a:hover{
+  color: #0ca06e;
+}

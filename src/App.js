@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
-import CountdownTimer from './components/CountdownTimer';
+import "./App.css";
+import CountdownTimer from "./components/CountdownTimer";
 
 export default function App() {
   const THREE_DAYS_IN_MS = 1 * 1 * 2 * 60 * 1000;
@@ -15,16 +15,17 @@ export default function App() {
     <div className="app">
       <h1>Countdown Timer</h1>
       <div>
-  
-  <h2>Expires after 2 mins!!!</h2>
-  <CountdownTimer targetDate={dateTimeAfterThreeDays} />
-</div>
-    
-<div>
-  
-      <h2>Expires after 7 days!!!</h2>
-      <CountdownTimer targetDate={dateTimeAfterSevenDays} />
-</div>
+        <h2>Expires after 2 mins!!!</h2>
+        <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+      </div>
+
+      <div>
+        <h2>Expires after 7 days!!!</h2>
+        <CountdownTimer targetDate={dateTimeAfterSevenDays} />
+      </div>
+      <footer >
+        Create by<a href="https://github.com/Samettkaya/count-down-timer">Samet kaya</a>
+      </footer>
     </div>
   );
 }

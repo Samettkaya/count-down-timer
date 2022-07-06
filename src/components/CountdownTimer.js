@@ -21,13 +21,13 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <>
       <div class="container ">
-        <DateTimeDisplay value={days} type={"Days"} countw={false} />
+        <DateTimeDisplay value={days} type={"Days"}  />
         :
-        <DateTimeDisplay value={hours} type={"Hours"} isDanger={false} />
+        <DateTimeDisplay value={hours} type={"Hours"}  />
         :
-        <DateTimeDisplay value={minutes} type={"Mins"} isDanger={false} />
+        <DateTimeDisplay value={minutes} type={"Mins"}  />
         :
-        <DateTimeDisplay value={seconds} type={"Seconds"} isDanger={false} />
+        <DateTimeDisplay value={seconds} type={"Seconds"}  />
       </div>
     </>
   );
